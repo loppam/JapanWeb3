@@ -41,7 +41,7 @@ function App() {
           />
         </div>
 
-        {/* Team Grid */}
+        {/* Team part Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {filteredTeams.map((team, index) => (
             <TeamCard key={index} team={team} />
